@@ -7,7 +7,7 @@ or the [API documentation](API.md).
 # Specific to dat.GUI.midi vs dat.GUI
 - Adds support midi controllers to number sliders/ranges.
 - Detects whether midi inputs are available/present.
-- If present, adds a 🎵 icon button next to the slider that, when clicked, will allow you to bind the slider to their midi device by simply manipulating a control on the device.
+- If present, adds a 🎵 icon button next to the slider that, when clicked, will allow you to bind the slider to a midi device by simply manipulating a control on the device.
 - Multiple sliders can be bound to the same device & control.
 - Slider can be unbound from midi device by clicking 🎵 icon button again.
 
@@ -26,15 +26,15 @@ In your `head` tag, include the following code:
 ## Installing from npm
 
 ```bash
-$ npm install --save dat.gui
+$ npm install --save dat.gui.midi
 ```
 
 ```js
 // CommonJS:
-const dat = require('dat.gui');
+const dat = require('dat.gui.midi');
 
 // ES6:
-import * as dat from 'dat.gui';
+import * as dat from 'dat.gui.midi';
 
 const gui = new dat.GUI();
 ```
