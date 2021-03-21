@@ -5,7 +5,7 @@ Get started with dat.GUI by reading the [tutorial](http://workshop.chromeexperim
 or the [API documentation](API.md).
 
 # Specific to dat.GUI.midi vs dat.GUI
-- Adds support midi controllers to number sliders/ranges.
+- Adds support for midi controllers to number sliders/ranges.
 - Detects whether midi inputs are available/present.
 - If present, adds a 🎵 icon button next to the slider that, when clicked, will allow you to bind the slider to a midi device by simply manipulating a control on the device.
 - Multiple sliders can be bound to the same device & control.
